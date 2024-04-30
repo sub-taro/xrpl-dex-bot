@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start:dev": "set NODE_ENV=development && node main.js",
+    "start": "set NODE_ENV=production && node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "xrpl": "^3.0.0"
+  }
+}
